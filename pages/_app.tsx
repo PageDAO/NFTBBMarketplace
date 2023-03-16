@@ -15,11 +15,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="Buy & Sell NFT University Press NFTBooks"
+          content="Buy & Sell PageDAO NFTs & NFTBooks"
         />
         <meta
           name="keywords"
-          content="NFT University Press, NFT, University, Press, PageDAO"
+          content="NFT, NFTBook, PageDAO"
         />
       </Head>
       <Header />
