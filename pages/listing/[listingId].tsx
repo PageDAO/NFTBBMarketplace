@@ -63,7 +63,7 @@ const ListingPage: NextPage = () => {
         await marketplace?.direct.makeOffer(
           listingId, // The listingId of the listing we want to make an offer for
           1, // Quantity = 1
-          NATIVE_TOKENS[ChainId.Goerli].wrapped.address, // Wrapped Ether address on Goerli
+          NATIVE_TOKENS[ChainId.Polygon].wrapped.address, // Wrapped Ether address on Goerli
           bidAmount // The offer amount the user entered
         );
       }
